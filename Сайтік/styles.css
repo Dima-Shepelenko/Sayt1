@@ -1,0 +1,237 @@
+table {background-color: #FEBD2F;text-align: center;}
+a {text-decoration: none;} /* Отменяем подчеркивание у ссылки */
+body {background-image: url(images/zirku.jpg);}
+h1 {color: white; }
+p  {text-color:#36E506;}
+h2  {color: #F5FF14;}
+ol li {color:#42BAFF;}
+
+.menu{	padding:0;
+	margin:0;
+	position: relative;
+	margin-top: -15px;
+	margin-left: 470px;}
+.menu li {float: left;
+	  display: block;
+	  width: 200px;
+	  height: 40px;
+	  border: 1px solid #000;
+	  background: #E09A00;}
+.menu li:hover{  background: #0AFFEE;}
+.menu li ul{  position:relative;
+	width: 200px;
+	margin-top: 1px;
+	margin-left: -40px;
+	display: none;}
+
+.menu li:hover ul{  display: block;}
+.menu a{  display: block;
+	padding: 10px;
+	text-align: center;
+	text-decoration: none;
+	color: #001299;}
+.menu li ul li{  color: #001299;}
+
+
+
+
+
+
+.colo  {width: 1000px;
+	  height: 900px;
+	  border: 5px solid;
+	  border-radius: 100px;
+	  color: #04539F;
+  	  margin-top: 65px;
+	  margin-left: 255px;
+	  background-image: url(images/zir.jpg) ; }
+
+
+
+
+
+
+.demo-3 {
+  	  position:relative;
+   	 width:300px;
+   	 height:300px;
+   	 overflow:hidden;
+    	float:left;
+  	  margin-right:20px}
+.demo-3 figure {
+   	 margin:0;
+   	 padding:0;
+   	 position:relative;
+   	 cursor:pointer;
+   	 margin-left:-50px}
+.demo-3 figure img {
+   	 display:block;
+   	 position:relative;
+   	 z-index:10;
+   	 margin:-15px}
+.demo-3 figure figcaption {
+   	 display:block;
+   	 position:absolute;
+   	 z-index:5;
+   	 -webkit-box-sizing:border-box;
+   	 -moz-box-sizing:border-box;
+    	box-sizing:border-box}
+.demo-3 figure h2 {
+   	 font-family:'Lato';
+   	 color:#fff;
+   	 font-size:20px;
+   	 text-align:left}
+.demo-3 figure p {
+   	 display:block;
+   	 font-family:'Lato';
+   	 font-size:12px;
+   	 line-height:18px;
+   	 margin:0;
+   	 color:#fff;
+   	 text-align:left}
+.demo-3 figure figcaption {
+   	 top:0;
+   	 left:0;
+   	 width:100%;
+   	 height:100%;
+  	  padding:29px 44px;
+  	  background-color:rgba(26,76,110,0.5);
+  	  text-align:center;
+   	 backface-visibility:hidden;
+   	 -webkit-transform:rotateY(-180deg);
+   	 -moz-transform:rotateY(-180deg);
+   	 transform:rotateY(-180deg);
+   	 -webkit-transition:all .5s;
+  	  -moz-transition:all .5s;
+  	  transition:all .5s}
+.demo-3 figure img {
+   	 backface-visibility:hidden;
+   	 -webkit-transition:all .5s;
+   	 -moz-transition:all .5s;
+   	 transition:all .5s}
+.demo-3 figure:hover img,figure.hover img {
+  	  -webkit-transform:rotateY(180deg);
+  	  -moz-transform:rotateY(180deg);
+  	  transform:rotateY(180deg)}
+.demo-3 figure:hover figcaption,figure.hover figcaption {
+  	  -webkit-transform:rotateY(0);
+  	  -moz-transform:rotateY(0);
+   	 transform:rotateY(0)}
+.demo-3 {  margin-left:100px}
+
+
+
+
+#holder {
+ 	 margin:50px auto;
+ 	 -webkit-perspective:600px;
+ 	 -moz-perspective:600px;
+	  text-indent: 0px;}
+.box {
+ 	 position: relative;
+ 	 margin: 0 auto;
+ 	 height: 200px;
+	  width: 200px;
+ 	 -webkit-animation: spin 20s infinite linear;
+  	-moz-animation: spin 20s infinite linear;
+  	-webkit-transform-style: preserve-3d;
+  	-moz-transform-style: preserve-3d;}
+.box div {
+ 	 position: absolute;
+	  height: 200px;
+ 	 width: 200px;
+ 	 box-shadow: 0px 0px 1px rgba(0, 0, 0, 0.5); 
+  	-webkit-animation:rotate 15s infinite linear;
+  	-moz-animation:rotate 15s infinite linear;}
+.box div img {width:200px;
+	  height:200px;
+	  border-radius:200px;
+	  -webkit-animation:rot 10s infinite linear;
+	  -moz-animation:rot 10s infinite linear;  
+	  padding: 0;}
+
+.box div.side1 {
+  	background:rgba( 213, 62, 7, 0.8);
+ 	-webkit-transform:translateZ(100px);
+  	-moz-transform:translateZ(100px);}
+.box div.side2 {
+ 	 background:rgba( 127, 255, 212, 0.8);
+  	-webkit-transform:rotateY(90deg) translateZ(100px);
+  	-moz-transform:rotateY(90deg) translateZ(100px);}
+.box div.side3 {
+ 	 background:rgba( 255, 219, 88, 0.8);
+ 	 -webkit-transform:rotateY(180deg) translateZ(100px);
+ 	 -moz-transform:rotateY(180deg) translateZ(100px);}
+.box div.side4 {
+  	background:rgba( 153, 17, 153, 0.8);
+  	-webkit-transform:rotateY(-90deg) translateZ(100px);
+  	-moz-transform:rotateY(-90deg) translateZ(100px);}
+.box div.side5 {
+ 	 background:rgba( 0, 71, 171, 0.8);
+  	-webkit-transform:rotateX(-90deg) translateZ(100px) rotate(180deg);
+ 	-moz-transform:rotateX(-90deg) translateZ(100px) rotate(180deg);}
+.box div.side6  {
+  	 background:rgba( 0, 171, 147, 0.8);
+ 	 -webkit-transform:rotateX(90deg) translateZ(100px);
+ 	 -moz-transform:rotateX(90deg) translateZ(100px);}
+@-moz-keyframes spin {
+  	0% {-moz-transform: rotateX(0deg) rotateY(0deg);}
+  	100% {-moz-transform: rotateX(1080deg) rotateY(360deg);}
+}
+@-webkit-keyframes spin {
+ 	 0% {-webkit-transform: rotateX(0deg) rotateY(0deg);}
+  	100% {-webkit-transform: rotateX(1080deg) rotateY(360deg);}
+}
+@-moz-keyframes rot {
+  	0% {-moz-transform: rotate(0deg);}
+  	100% {-moz-transform: rotate(360deg);}
+}
+@-webkit-keyframes rot {
+ 	 0% {-webkit-transform: rotate(0deg);}
+  	100% {-webkit-transform: rotate(360deg);}
+}
+
+
+
+
+
+.ball {
+ 	 margin-top:-1000px;
+ 	 margin-left: 100px;
+ 	 position:absolute;
+ 	 width: 100px;
+ 	 height: 100px;
+  	border-radius: 100%;
+ 	 animation: dws-bounce 3s linear infinite, 
+ 	 dws-moveLeft 25s linear infinite alternate;
+ 	 background-image: url(images/ball.jpg);}
+@keyframes dws-bounce {
+ 	 0%  { bottom: 100%; }
+ 	 25% { bottom:0; width:100px; height:100px;  background-image: url(images/ball.jpg);}
+  	30% { bottom:0; width:110px; height:25px;  background-image: url(images/ball.jpg);}
+  	35% { bottom:0; width:100px; height:100px;}
+  	70% { bottom:100%;  background-image: url(images/ball.jpg); }
+  	100% { bottom:100%;}
+}
+
+
+
+
+
+
+
+.rocket {
+	transform: rotate(45deg);
+	margin-top:-230px;
+	margin-left:-195px;}
+.rocke {
+	transform: rotate(-45deg);
+	margin-top:-590px;
+	margin-left:950px;}
+
+
+
+.rad img{height:240px;
+	width:240px;
+	border-radius:25px;
+	margin-left:6px;}
