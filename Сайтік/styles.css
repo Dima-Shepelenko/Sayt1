@@ -1,5 +1,5 @@
 table {background-color: #FEBD2F;text-align: center;}
-a {text-decoration: none;} /* Отменяем подчеркивание у ссылки */
+a {text-decoration: none;} /* ГЋГІГ¬ГҐГ­ГїГҐГ¬ ГЇГ®Г¤Г·ГҐГ°ГЄГЁГўГ Г­ГЁГҐ Гі Г±Г±Г»Г«ГЄГЁ */
 body {background-image: url(images/zirku.jpg);}
 h1 {color: white; }
 p  {text-color:#36E506;}
@@ -213,22 +213,6 @@ ol li {color:#42BAFF;}
   	70% { bottom:100%;  background-image: url(images/ball.jpg); }
   	100% { bottom:100%;}
 }
-
-
-
-
-
-
-
-.rocket {
-	transform: rotate(45deg);
-	margin-top:-230px;
-	margin-left:-195px;}
-.rocke {
-	transform: rotate(-45deg);
-	margin-top:-590px;
-	margin-left:950px;}
-
 
 
 .rad img{height:240px;
